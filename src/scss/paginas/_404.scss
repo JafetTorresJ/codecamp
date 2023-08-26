@@ -1,0 +1,13 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.pagina_404{
+
+    &__contenido
+    {
+   text-align: center;
+    }
+    &__enlace{
+           color: v.$azul;
+    }
+}
